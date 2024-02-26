@@ -23,10 +23,8 @@ public class User {
 
     private String email;
 
-    @NotNull
     private String password;
 
-    @NotNull
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
     private Date createdAt;
